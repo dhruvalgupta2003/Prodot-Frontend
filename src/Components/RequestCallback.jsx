@@ -38,7 +38,7 @@ const RequestCallback = () => {
 
   return (
     <>
-      {/* <h1 className="font-bold text-center text-[72px]">Request Callback</h1>
+      <h1 className="font-bold text-center text-[72px]">Request Callback</h1>
       <form onSubmit={handleSubmit} className=" w-full my-auto">
         <div className="grid grid-cols-2 gap-4 w-full mx-auto">
           <div>
@@ -80,8 +80,6 @@ const RequestCallback = () => {
           Submit
         </button>
       </form>
-    </> */}
-
     </>
   );
 };
