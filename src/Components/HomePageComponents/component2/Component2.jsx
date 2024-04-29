@@ -9,8 +9,7 @@ import bannerImage6 from "../../../assets/image6.png";
 import OurProcess from "../ourprocess/OurProcess";
 import Wardrobes from "../wardrobes/Wardrobes";
 import Bathroom from "../bathrooms/Bathroom";
-
-function Component1() {
+const Component2 = () => {
   const svg4 = (
     <svg
       width="305"
@@ -27,9 +26,7 @@ function Component1() {
     <div className="component-1-wrapper">
       <div className="component-1-container">
         <img src={bannerImage1} />
-        <p>
-          Transform Your Kitchen into <br /> Your Dream Space
-        </p>
+        <p>+ Kitchens</p>
       </div>
       <div className="component-2-container">
         <div className="banner-2-container">
@@ -44,7 +41,7 @@ function Component1() {
               padding: "0 2rem",
             }}
           >
-            <h1> Our Mission</h1>
+            <h1> Our Inspiration</h1>
             <span className="line2">
               {" "}
               <svg
@@ -98,10 +95,8 @@ function Component1() {
         style={{ height: "100vh", width: "100vw", padding: "50px 0" }}
       />
       <OurProcess />
-
     </div>
-
   );
-}
+};
 
-export default Component1;
+export default Component2;

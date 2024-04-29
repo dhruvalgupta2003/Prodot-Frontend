@@ -9,7 +9,7 @@ const App = () => {
     <div style={{ overflowX: "hidden" }}>
       <DrawerAppBar />
       <Component1 />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

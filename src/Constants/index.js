@@ -39,3 +39,39 @@ export const navlinks = [
     link: "/aboutus",
   },
 ];
+
+export const servicesDataHome = [
+  {
+    title: "Interior Planning",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  },
+  {
+    title: "Designing",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  },
+  {
+    title: "Executing",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  },
+];
+
+export const servicesDataKitchen = [
+  {
+    title: "Amazing Craftsmanship",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  },
+  {
+    title: "Expertly Made",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  },
+  {
+    title: "High Build Quality",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  },
+];

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Component1.scss";
 import Services from "../services/Services";
-import bannerImage1 from "../../../assets/image1.webp";
-import bannerImage2 from "../../../assets/image2.webp";
+import bannerImage1 from "../../../assets/image02.png";
+import bannerImage2 from "../../../assets/image01.png";
 import bannerImage3 from "../../../assets/image3.webp";
 import bannerImage5 from "../../../assets/image5.png";
 import bannerImage6 from "../../../assets/image6.png";
@@ -10,7 +10,7 @@ import OurProcess from "../ourprocess/OurProcess";
 import Wardrobes from "../wardrobes/Wardrobes";
 import Bathroom from "../bathrooms/Bathroom";
 
-function Component1() {
+const Component3 = () => {
   const svg4 = (
     <svg
       width="305"
@@ -22,7 +22,6 @@ function Component1() {
       <rect width="305" height="3" fill="#0E1B1B" />
     </svg>
   );
-
   return (
     <div className="component-1-wrapper">
       <div className="component-1-container">
@@ -44,7 +43,7 @@ function Component1() {
               padding: "0 2rem",
             }}
           >
-            <h1> Our Mission</h1>
+            <h1> Our Inspiration</h1>
             <span className="line2">
               {" "}
               <svg
@@ -98,10 +97,8 @@ function Component1() {
         style={{ height: "100vh", width: "100vw", padding: "50px 0" }}
       />
       <OurProcess />
-
     </div>
-
   );
-}
+};
 
-export default Component1;
+export default Component3;
