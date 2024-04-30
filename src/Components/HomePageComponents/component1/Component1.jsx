@@ -98,9 +98,7 @@ function Component1() {
         style={{ height: "100vh", width: "100vw", padding: "50px 0" }}
       />
       <OurProcess />
-
     </div>
-
   );
 }
 

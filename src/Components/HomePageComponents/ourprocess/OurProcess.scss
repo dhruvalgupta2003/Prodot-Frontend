@@ -72,6 +72,11 @@
       top: 20px;
       
     }
+    @media screen and (max-width:768px) {
+      flex-direction: column;
+      align-items: center;
+      
+    }
     .three-box{
         display: flex;
         flex-direction: column;
@@ -79,9 +84,23 @@
         background: var(--Gray-Scale-White, #FFF);
     box-shadow: 0 0 56px #00260314;
         justify-content: center;
-        height: 200px;
-        width: 200px;
+        height: 11rem;
+        width: 11rem;
+        // height: 200px;
+        // width: 200px;
         border-radius: 50px 50px 50px 50px;
+        @media screen and (max-width:1024px) {
+          height: 9rem;
+          width: 9rem;
+          
+        }
+        @media screen and (max-width:768px) {
+          height: 7rem;
+          width: 7rem;
+        border-radius: 40px 40px 40px 40px;
+          font-size: 12px;
+          padding: auto;
+        }
     }
 }
 
